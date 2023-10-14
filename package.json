@@ -1,0 +1,35 @@
+{
+  "name": "node-server-with-typescript",
+  "version": "1.0.0",
+  "description": "A Web & API server built using TypeScript",
+  "main": "index.js",
+  "dependencies": {
+    "add": "^2.0.6",
+    "dotenv": "^6.0.0",
+    "nodemon": "^3.0.1",
+    "openai": "^4.12.1",
+    "telegraf": "^4.14.0",
+    "telegraf-menu": "^1.7.2",
+    "tslint": "^5.11.0",
+    "yarn": "^1.22.19",
+    "youtube-dl-exec": "^2.4.15"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^4.0.3",
+    "@types/node": "^12.12.17",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "5.0.3",
+    "typescript-eslint-parser": "^18.0.0"
+  },
+  "scripts": {
+    "build": "npm run tsc",
+    "tsc": "tsc -p tsconfig.json",
+    "dev": "tsnd --respawn src/index.ts",
+    "test": "tsc && ./node_modules/.bin/mocha dist/**/*.spec.js",
+    "lint": "tslint 'src/**/*.ts' --fix",
+    "clean": "rm -rf dist/ .logs/",
+    "start": "node dist"
+  },
+  "author": "Faiz A. Farooqui <faiz@geekyants.com>",
+  "license": "ISC"
+}

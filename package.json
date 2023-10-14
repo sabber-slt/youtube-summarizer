@@ -1,7 +1,7 @@
 {
-  "name": "node-server-with-typescript",
+  "name": "youtube-summarizer",
   "version": "1.0.0",
-  "description": "A Web & API server built using TypeScript",
+  "description": "This Telegram bot designed to simplify the process of extracting YouTube video's contents.",
   "main": "index.js",
   "dependencies": {
     "add": "^2.0.6",
@@ -30,6 +30,6 @@
     "clean": "rm -rf dist/ .logs/",
     "start": "node dist"
   },
-  "author": "Faiz A. Farooqui <faiz@geekyants.com>",
-  "license": "ISC"
+  "author": "Sabber <developer@sabber.dev>",
+  "license": "MIT"
 }

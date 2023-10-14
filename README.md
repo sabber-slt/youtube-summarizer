@@ -4,8 +4,8 @@
 
 ![Home / Landing Page](/screens/Home.png)
 
-This Telegram bot designed to simplify the process of extracting YouTube video URLs shared by users within the Telegram messaging platform. Whether you're a content creator, a video enthusiast, or just looking to share and organize your favorite YouTube videos, our bot is here to streamline the process.
-In addition to extracting YouTube URLs, this bot is powered by the OpenAI Language Model, enabling it to provide real-time summaries of the shared video content. This feature allows users to quickly grasp the essence of the video before deciding to watch it.
+This Telegram bot designed to simplify the process of extracting YouTube video's contents.
+In addition to extracting YouTube URLs, this bot is use s OpenAI Language Model, enabling it to provide real-time summaries of the shared video content. This feature allows users to quickly grasp the essence of the video before deciding to watch it.
 
 ### How to install ?
 

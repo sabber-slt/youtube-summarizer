@@ -1,11 +1,11 @@
-import { Context } from "telegraf"
+import { Context } from 'telegraf';
 
 export interface SessionData {
-    youtubeLink: string
+    youtubeLink: string;
 }
 
 export interface MyContext extends Context {
-    session?: SessionData
+    session?: SessionData;
 }
 
 export enum Language {

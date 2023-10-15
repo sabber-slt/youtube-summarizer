@@ -23,7 +23,7 @@ bot.on(message('text'), async (ctx) => {
   const { text } = ctx.message;
 
   if (!isYouTubeLikeValid(text)) {
-    await ctx.reply('The link that you provided is not valid! Please provide a valide YouTube link.');
+    await ctx.reply('The link that you provided is not valid! Please provide a valid YouTube link.');
     return;
   }
 

@@ -1,13 +1,14 @@
 import OpenAI from 'openai';
+import { Language } from '../utils/types';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-const prompt =
-  'Please provide a long summary of the given text in Persian language.';
+export const openaiHandler = async (text: string, language: Language) => {
+  const prompt =
+  `Please provide a long summary of the given text in ${language} language.`;
 
-export const openaiHandler = async (text: string) => {
   try {
     const chatCompletion = await openai.chat.completions.create({
       messages: [

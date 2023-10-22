@@ -7,9 +7,7 @@
     "noImplicitAny": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node"
-  },
-  "files": ["./node_modules/@types/node/index.d.ts"],
-  "include": ["src/**/*.ts"],
-  "exclude": ["typings/*", "node_modules"]
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  }
 }

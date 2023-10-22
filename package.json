@@ -4,8 +4,11 @@
   "description": "This Telegram bot designed to simplify the process of extracting YouTube video's contents.",
   "main": "index.js",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "add": "^2.0.6",
+    "axios": "^1.5.1",
     "dotenv": "^6.0.0",
+    "fluent-ffmpeg": "^2.1.2",
     "nodemon": "^3.0.1",
     "openai": "^4.12.1",
     "telegraf": "^4.14.0",
@@ -16,6 +19,7 @@
   },
   "devDependencies": {
     "@types/dotenv": "^4.0.3",
+    "@types/fluent-ffmpeg": "^2.1.23",
     "@types/node": "^12.12.17",
     "ts-node-dev": "^2.0.0",
     "typescript": "5.0.3",
